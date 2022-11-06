@@ -8,7 +8,7 @@ Página  Com  Dark Mode
 - Javascript 
 
 
-Nesse projeto ao clicar no botão  ocorre a troca do tema claro pra o escuro. 
+Ao clicar no botão  ocorre a troca do tema claro para o escuro. 
 
  Light-theme:
 
