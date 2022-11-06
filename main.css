@@ -1,0 +1,112 @@
+
+/*Root*/
+
+:root {
+  --green: #8cc98c;
+  --white: #ffff;
+  --black: #000000;
+}
+/*Temas */
+.light-theme {
+  --bgColor: var(--green);
+
+  --fontColor: var(--black);
+}
+
+.dark-theme {
+  --bg: var(--black);
+
+  --fontColor: var(--green);
+}
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+/*container*/
+
+.container{
+
+width: 375px;
+height: 400px;
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+border-radius: 20px;
+}
+           /*Geral*/
+* {
+  color: var(--fontColor);
+  font-family: Helvetica;
+}
+
+body {
+  background: var(--bg);
+}
+   /*Botão*/
+.btn {
+  color: var(--btnFontColor);
+
+  background-color: var(--green);
+}
+
+.btn {
+
+  height: 50px;
+  width: 100px;
+  top: 20px;
+  border-radius: 10px;
+  color: var(--btnFontColor);
+  background-color: var(--btnbg);
+}
+
+.btn:focus {
+  outline-style: none;
+}
+
+.light-theme {
+  --bg: var(--white);
+  --btnbg: var(--black);
+  --btnfontColor: var(--white);
+}
+
+.light-theme .btn{
+  color:white;
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--green);
+  --btnbg: var(--white);
+  color: white;
+}
+
+.dark-theme .btn{
+  color:black;
+}
+
+/*Estilos da lista*/
+li {
+
+  list-style: circle;
+  
+  }
+  
+  .list {
+  
+  list-style: square;
+  
+  }
+  
+  #msg {
+  
+  font-family: monospace;
+  text-transform: capitalize;
+  
+  }
